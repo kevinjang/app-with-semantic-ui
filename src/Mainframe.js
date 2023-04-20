@@ -4,7 +4,13 @@ import { Router } from 'react-router'
 
 class Mainframe extends React.Component {
     render() {
-        return <Router><div>Mainframe</div></Router>
+        return <div>
+            <div style={{
+                width: '100%',
+                height: 50,
+                backgroundColor: 'cornflowerblue'
+            }}></div>
+        </div>
     }
 }
 
